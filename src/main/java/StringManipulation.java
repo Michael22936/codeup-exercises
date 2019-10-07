@@ -15,7 +15,7 @@ public class StringManipulation {
         System.out.println(userInput);
 
         if(StringUtils.isNumeric(userInput)){
-            System.out.println(StringUtils.isNumeric(userInput));
+            System.out.println(userInput + " This is a number");
         }else{
             System.out.println(userInput + " is not a number");
         }
