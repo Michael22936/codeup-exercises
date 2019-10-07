@@ -12,7 +12,7 @@ public class StringManipulation {
 
         System.out.print("You Entered: ");
 
-        System.out.println(userInput);
+        System.out.println("\"" + userInput + "\"");
 
         if(StringUtils.isNumeric(userInput)){
             System.out.println(userInput + " This is a number");
